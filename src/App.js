@@ -7,6 +7,7 @@ import UserOrders from "./UserOrders";
 function App() {
   useEffect(() => {
     fetchOrders();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [pageLoading, setPageLoading] = useState(false);
