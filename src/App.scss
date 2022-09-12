@@ -1,6 +1,22 @@
 .order {
   &__code {
     font-size: 0.75rem;
+    padding-left: 0.5rem;
+    white-space: pre;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #5c5c5c;
+
+    &--input {
+      display: none;
+    }
+  }
+
+  &__copy {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
   }
 
   &__header {
@@ -9,6 +25,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      grid-gap: 10px;
+    }
 
     &--desc {
       font-size: 1rem;
@@ -102,4 +123,3 @@
   align-items: center;
   justify-content: center;
 }
-

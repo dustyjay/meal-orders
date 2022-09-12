@@ -50,4 +50,3 @@ const SingleOrder = ({ brandName, brandLogo, amount, meals }) => {
 };
 
 export default SingleOrder;
-

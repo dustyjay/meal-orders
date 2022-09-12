@@ -22,5 +22,9 @@ main {
 body {
   background: linear-gradient(90deg, #e0e9ec, #f9e0e2) fixed center;
   line-height: 1.4;
-}
+  font-size: 16px;
 
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
